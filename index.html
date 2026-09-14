@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Malupo Records | Música, Arte e Identidade</title>
+
+    <!-- Bootstrap importado pelo node_modules -->
+    <link
+        rel="stylesheet"
+        href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    >
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <!-- Navbar Bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+            <section class="container">
+
+                <a class="navbar-brand fw-bold fs-3" href="#inicio">
+                    MALUPO<span class="marca-ponto">.</span>
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menu de navegação"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <section class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#biografia">Biografia</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#musicas">Músicas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shows">Shows</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+
+                    </ul>
+                </section>
+
+            </section>
+        </nav>
+
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main id="inicio">
+
+        <!-- Seção inicial -->
+        <section class="hero py-5">
+            <section class="container py-5">
+
+                <section class="row align-items-center g-4">
+
+                    <article class="col-12 col-md-7">
+
+                        <p class="text-uppercase fw-bold mb-2 destaque">
+                            Gravadora independente
+                        </p>
+
+                        <h1 class="display-3 fw-bold text-light">
+                            MALUPO<br>RECORDS
+                        </h1>
+
+                        <p class="lead text-light opacity-75 mt-4">
+                            Onde música, criatividade e atitude se encontram.
+                            Conheça nossos artistas, lançamentos e próximos shows.
+                        </p>
+
+                        <a
+                            href="#musicas"
+                            class="btn btn-warning btn-lg mt-3 px-4 fw-bold botao-principal"
+                        >
+                            Ouvir lançamentos
+                        </a>
+
+                    </article>
+
+                    <article class="col-12 col-md-5 text-center">
+                        <figure class="logo-artista m-0">
+                            <p class="display-1 fw-bold mb-0">M</p>
+                            <p class="display-6 fw-bold">MALUPO</p>
+                            <p class="mb-0">RECORDS</p>
+                        </figure>
+                    </article>
+
+                </section>
+
+            </section>
+        </section>
+
+        <!-- Biografia -->
+        <section id="biografia" class="py-5 bg-light">
+
+            <section class="container py-4">
+
+                <header class="mb-5">
+                    <p class="text-uppercase fw-bold destaque mb-2">
+                        Nossa história
+                    </p>
+
+                    <h2 class="display-5 fw-bold">
+                        Biografia
+                    </h2>
+                </header>
+
+                <section class="row g-4">
+
+                    <article class="col-12 col-lg-8">
+
+                        <p class="fs-5 lh-lg">
+                            A Malupo Records nasceu da vontade de transformar
+                            ideias em música e criar um espaço para artistas
+                            que possuem uma identidade própria.
+                        </p>
+
+                        <p class="text-muted lh-lg">
+                            Trabalhando com música, produção e expressão artística,
+                            a Malupo busca conectar diferentes estilos e transformar
+                            cada lançamento em uma experiência única para o público.
+                        </p>
+
+                    </article>
+
+                    <aside class="col-12 col-lg-4">
+
+                        <article class="p-4 bg-dark text-light rounded-4 h-100 shadow-sm">
+
+                            <p class="text-uppercase small fw-bold destaque">
+                                Identidade
+                            </p>
+
+                            <h3 class="fw-bold">
+                                Música sem fórmula.
+                            </h3>
+
+                            <p class="mb-0 text-light opacity-75">
+                                Criatividade, autenticidade e liberdade artística
+                                em cada projeto.
+                            </p>
+
+                        </article>
+
+                    </aside>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- Músicas e álbuns -->
+        <section id="musicas" class="py-5">
+
+            <section class="container py-4">
+
+                <header class="mb-5">
+                    <p class="text-uppercase fw-bold destaque mb-2">
+                        Discografia
+                    </p>
+
+                    <h2 class="display-5 fw-bold text-light">
+                        Álbuns & Músicas
+                    </h2>
+
+                    <p class="text-light opacity-75">
+                        Confira alguns dos lançamentos da Malupo Records.
+                    </p>
+                </header>
+
+                <!-- Grid Bootstrap: row + col -->
+                <section class="row g-4">
+
+                    <!-- Card 1 -->
+                    <article class="col-12 col-md-6 col-lg-4">
+
+                        <section class="card h-100 border-0 shadow-sm album-card">
+
+                            <header class="album-capa capa-1">
+                                <p class="small text-uppercase fw-bold">
+                                    Álbum
+                                </p>
+
+                                <h3 class="fw-bold mb-0">
+                                    Neon City
+                                </h3>
+                            </header>
+
+                            <section class="card-body">
+
+                                <p class="card-text text-muted">
+                                    Batidas urbanas, sintetizadores e uma
+                                    atmosfera noturna.
+                                </p>
+
+                                <a
+                                    href="#"
+                                    class="btn btn-dark w-100 fw-bold"
+                                >
+                                    Ouvir agora
+                                </a>
+
+                            </section>
+
+                        </section>
+
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="col-12 col-md-6 col-lg-4">
+
+                        <section class="card h-100 border-0 shadow-sm album-card">
+
+                            <header class="album-capa capa-2">
+                                <p class="small text-uppercase fw-bold">
+                                    Single
+                                </p>
+
+                                <h3 class="fw-bold mb-0">
+                                    Último Sinal
+                                </h3>
+                            </header>
+
+                            <section class="card-body">
+
+                                <p class="card-text text-muted">
+                                    Uma música intensa sobre despedidas,
+                                    mudanças e recomeços.
+                                </p>
+
+                                <a
+                                    href="#"
+                                    class="btn btn-dark w-100 fw-bold"
+                                >
+                                    Ouvir agora
+                                </a>
+
+                            </section>
+
+                        </section>
+
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="col-12 col-md-6 col-lg-4">
+
+                        <section class="card h-100 border-0 shadow-sm album-card">
+
+                            <header class="album-capa capa-3">
+                                <p class="small text-uppercase fw-bold">
+                                    EP
+                                </p>
+
+                                <h3 class="fw-bold mb-0">
+                                    Frequência
+                                </h3>
+                            </header>
+
+                            <section class="card-body">
+
+                                <p class="card-text text-muted">
+                                    Uma mistura de ritmos, vozes e
+                                    experimentações sonoras.
+                                </p>
+
+                                <a
+                                    href="#"
+                                    class="btn btn-dark w-100 fw-bold"
+                                >
+                                    Ouvir agora
+                                </a>
+
+                            </section>
+
+                        </section>
+
+                    </article>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- Agenda de shows -->
+        <section id="shows" class="py-5 bg-light">
+
+            <section class="container py-4">
+
+                <header class="mb-5">
+                    <p class="text-uppercase fw-bold destaque mb-2">
+                        Ao vivo
+                    </p>
+
+                    <h2 class="display-5 fw-bold">
+                        Agenda de Shows
+                    </h2>
+                </header>
+
+                <section class="row g-4">
+
+                    <article class="col-12 col-md-4">
+
+                        <section class="show-item p-4 rounded-4 h-100">
+
+                            <p class="fw-bold destaque mb-1">
+                                18 OUT
+                            </p>
+
+                            <h3 class="fw-bold">
+                                Malupo Fest
+                            </h3>
+
+                            <p class="text-muted mb-1">
+                                São Paulo - SP
+                            </p>
+
+                            <p class="text-muted mb-0">
+                                20:00
+                            </p>
+
+                        </section>
+
+                    </article>
+
+                    <article class="col-12 col-md-4">
+
+                        <section class="show-item p-4 rounded-4 h-100">
+
+                            <p class="fw-bold destaque mb-1">
+                                02 NOV
+                            </p>
+
+                            <h3 class="fw-bold">
+                                Festival Frequência
+                            </h3>
+
+                            <p class="text-muted mb-1">
+                                Campinas - SP
+                            </p>
+
+                            <p class="text-muted mb-0">
+                                21:30
+                            </p>
+
+                        </section>
+
+                    </article>
+
+                    <article class="col-12 col-md-4">
+
+                        <section class="show-item p-4 rounded-4 h-100">
+
+                            <p class="fw-bold destaque mb-1">
+                                15 NOV
+                            </p>
+
+                            <h3 class="fw-bold">
+                                Noite Malupo
+                            </h3>
+
+                            <p class="text-muted mb-1">
+                                Santos - SP
+                            </p>
+
+                            <p class="text-muted mb-0">
+                                22:00
+                            </p>
+
+                        </section>
+
+                    </article>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="py-5 contato-section">
+
+            <section class="container py-4">
+
+                <section class="row g-4 align-items-center">
+
+                    <article class="col-12 col-lg-7">
+
+                        <p class="text-uppercase fw-bold destaque mb-2">
+                            Fale com a gente
+                        </p>
+
+                        <h2 class="display-5 fw-bold text-light">
+                            Entre para a nossa frequência.
+                        </h2>
+
+                        <p class="text-light opacity-75 mt-3">
+                            Acompanhe os lançamentos, shows e novidades
+                            da Malupo Records.
+                        </p>
+
+                    </article>
+
+                    <nav class="col-12 col-lg-5" aria-label="Redes sociais">
+
+                        <ul class="list-unstyled mb-0">
+
+                            <li class="mb-3">
+                                <a
+                                    href="#"
+                                    class="social-link text-decoration-none"
+                                >
+                                    Instagram
+                                </a>
+                            </li>
+
+                            <li class="mb-3">
+                                <a
+                                    href="#"
+                                    class="social-link text-decoration-none"
+                                >
+                                    Spotify
+                                </a>
+                            </li>
+
+                            <li class="mb-3">
+                                <a
+                                    href="#"
+                                    class="social-link text-decoration-none"
+                                >
+                                    YouTube
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="mailto:contato@maluporecords.com"
+                                    class="social-link text-decoration-none"
+                                >
+                                    contato@maluporecords.com
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                </section>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light py-4">
+
+        <section class="container text-center">
+
+            <p class="fw-bold mb-1">
+                MALUPO RECORDS
+            </p>
+
+            <p class="small text-light opacity-50 mb-0">
+                © 2026 Malupo Records. Todos os direitos reservados.
+            </p>
+
+        </section>
+
+    </footer>
+
+    <!-- JavaScript Bootstrap vindo do node_modules -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
