@@ -1,0 +1,161 @@
+:root {
+    --cor-clara: #EEF0F2;
+    --cor-cinza: #403D39;
+    --cor-escura: #252422;
+    --cor-laranja: #EB5E28;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-escura);
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: var(--cor-escura) !important;
+}
+
+.navbar-brand {
+    color: var(--cor-clara) !important;
+}
+
+.nav-link {
+    color: var(--cor-clara) !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--cor-laranja) !important;
+}
+
+/* Destaques */
+
+.destaque {
+    color: var(--cor-laranja);
+    letter-spacing: 2px;
+}
+
+/* Hero */
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-escura);
+}
+
+.botao-principal {
+    background-color: var(--cor-laranja);
+    border-color: var(--cor-laranja);
+    color: var(--cor-clara);
+}
+
+.botao-principal:hover {
+    background-color: #d94f1d;
+    border-color: #d94f1d;
+    color: var(--cor-clara);
+}
+
+.logo-artista {
+    width: 280px;
+    height: 280px;
+    margin: auto !important;
+    border: 8px solid var(--cor-laranja);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-clara);
+}
+
+/* Músicas */
+
+#musicas {
+    background-color: var(--cor-escura);
+}
+
+.album-card {
+    overflow: hidden;
+    background-color: var(--cor-clara);
+    transition: transform 0.3s ease;
+}
+
+.album-card:hover {
+    transform: translateY(-8px);
+}
+
+.album-capa {
+    min-height: 210px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: var(--cor-clara);
+}
+
+.capa-1 {
+    background-color: var(--cor-laranja);
+}
+
+.capa-2 {
+    background-color: var(--cor-cinza);
+}
+
+.capa-3 {
+    background-color: var(--cor-escura);
+    border-bottom: 4px solid var(--cor-laranja);
+}
+
+/* Shows */
+
+.show-item {
+    background-color: #ffffff;
+    border-left: 5px solid var(--cor-laranja);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Contato */
+
+.contato-section {
+    background-color: var(--cor-cinza);
+}
+
+.social-link {
+    color: var(--cor-clara);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    color: var(--cor-laranja);
+}
+
+/* Responsividade */
+
+@media (max-width: 767px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .logo-artista {
+        width: 220px;
+        height: 220px;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+    }
+}
