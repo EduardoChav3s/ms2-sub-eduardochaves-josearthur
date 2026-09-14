@@ -1,40 +1,58 @@
-# Malupo Records
+# MALUPO RECORDS
 
-## 1. Nome do Projeto e Tema
-- **Nome do Projeto:** Malupo Records
-- **Tema:** Tema D — Portfólio de músico ou banda
+<p align="center">
+  <strong>Portfólio Músico de uma Gravadora</strong>
+</p>
 
-malupo-records/
-│
-├── node_modules/
-│
-├── src/
-│   └── css/
-│       └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── index.html
-├── package-lock.json
-├── package.json
-└── README.md
+<p align="center">
+  Site de apresentação artística desenvolvido para a Malupo Records.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Bootstrap-5.3.8-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
+</p>
 
 ---
 
-## 2. Descrição do que o Site Faz
-O site da **Malupo Records** é uma plataforma web de apresentação artística projetada para centralizar a presença digital de uma gravadora e selo musical independente. Ele permite que os visitantes explorem a história da gravadora, conheçam o catálogo de lançamentos e álbuns organizados em cartões interativos, e acompanhem as próximas datas da agenda de shows. Além disso, disponibiliza canais diretos de contato e links para redes sociais em um ambiente moderno, acessível e responsivo.
+## Descrição
+
+O **Malupo Records** é um site de apresentação artística desenvolvido para uma gravadora/projeto musical.
+
+A página reúne informações sobre a identidade da Malupo Records, sua biografia, lançamentos musicais, agenda de shows e formas de contato.
+
+O projeto foi desenvolvido com foco em uma identidade visual ligada ao universo musical, utilizando uma paleta de cores com tons escuros, cinza, claro e laranja.
 
 ---
 
-## 3. Framework Utilizado e Versão
-- **Framework:** Bootstrap
-- **Versão:** `5.3.8` (instalado via `npm` e importado localmente a partir de `node_modules`, sem o uso de CDN ou Tailwind CSS)
+## Sobre o projeto
+
+O site foi criado com o objetivo de apresentar a **Malupo Records** de forma visual e organizada, destacando seus conteúdos musicais e sua presença artística.
+
+A página conta com uma navegação responsiva, cards para apresentação de álbuns e músicas, uma agenda de shows e links para redes sociais e contato.
+
+Além da parte visual, o projeto utiliza **HTML semântico** e o sistema de **Grid responsivo do Bootstrap** para garantir uma estrutura organizada e adaptável a diferentes tamanhos de tela.
 
 ---
 
-## 4. Como Instalar e Rodar
+## Tecnologias utilizadas
 
-1. **Clonar o repositório:**
-   ```bash
-   git clone [https://github.com/usuario/malupo-records.git](https://github.com/usuario/malupo-records.git)
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Bootstrap 5.3.8**
+- **npm**
+
+---
+
+## Framework e versão
+
+O framework utilizado no projeto é o **Bootstrap 5.3.8**.
+
+A instalação foi realizada através do npm:
+
+```bash
+npm install bootstrap
